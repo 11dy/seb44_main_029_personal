@@ -34,6 +34,11 @@
 <br>
 
 ## 💻 Stacks Used
+</br>
+<div align="center" >
+<img width="1416" alt="image" src="https://github.com/codestates-seb/seb44_main_029/assets/96255906/711046b7-74c6-4555-936f-964e9b4f79e2">
+</div>
+
 ### Back-end
 |   Java   |   Spring   |   Spring Boot   |   Spring Security   |   MySQL   |   AWS   | 
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -55,7 +60,7 @@
 | :--------: | :--------: | :------: |
 | <img alt="github logo" src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65"> | <img alt="Discord logo" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384e89d1d54d704ece7_3437c10597c1526c3dbd98c737c2bcae.svg" height="65" width="65"> | <img alt="Notion logo" src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/icons/notion-app-icon-3d.png" height="65" width="65"> |
 
-</br>
+
 
 
 ## 🌱 Git
@@ -92,8 +97,3 @@ rename | 파일 혹은 폴더명을 수정하거나 옮기는 작업만인 경�
 remove | 파일을 삭제하는 작업만 수행한 경우
 !BREAKING CHANGE | 커다란 API 변경
 !HOTFIX | 급하게 치명적인 버그를 고쳐야하는 경우
-
-
-## 0816~ 
-- 테스트 코드 추가
-  
