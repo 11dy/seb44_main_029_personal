@@ -3,9 +3,12 @@
 <img width="1416" alt="image" src="https://github.com/codestates-seb/seb44_main_029/assets/85989215/ba3354c0-b5e6-4c7e-8c65-85db032feb50">
 </div>
 
-
 <br>
 
+<iframe width="875" height="502" src="https://www.youtube.com/embed/nS4el_Wv3vI" title="cozystates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<br>
  `팀 명` : 육-얼간이: Across the 얼간이-Verse <br>
  `프로젝트명` : Cozy States  <br>
  `프로젝트 기간` : 2023.06.28 - 2023.07.27  <br>
