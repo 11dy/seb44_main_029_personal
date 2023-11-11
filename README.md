@@ -1,20 +1,19 @@
-# Cozy States : 
+# COZYSTATES 
+🎶🎧💻음원, 이미지를 통한 사용자 심리안정 서비스
 <div align="center" >
 <img width="1416" alt="image" src="https://github.com/codestates-seb/seb44_main_029/assets/85989215/ba3354c0-b5e6-4c7e-8c65-85db032feb50">
 </div>
 
+# 🎶시연 영상 
 <br>
 
-<iframe width="875" height="502" src="https://www.youtube.com/embed/nS4el_Wv3vI" title="cozystates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+[![시연영상](http://img.youtube.com/vi/nS4el_Wv3vI/0.jpg)](https://www.youtube.com/watch?v=nS4el_Wv3vI)
 
 <br>
- `팀 명` : 육-얼간이: Across the 얼간이-Verse <br>
- `프로젝트명` : Cozy States  <br>
- `프로젝트 기간` : 2023.06.28 - 2023.07.27  <br>
- `배포 링크` : [Cozy States](http://www.cozystates.com/) - 비용 문제로 인한 서버 연결 해제
- 
- <br>시각적 테마 선택에 따라 청각적 서비스를 제공받아 심리적 안정감을 도모하는 미디어 서비스<br>
+
+# 프로젝트 기간 및 배포링크
+ - 프로젝트 기간 : 2023.06.28 - 2023.07.27  <br>
+ - 배포 링크 : https://www.cozystates.com - 비용 문제로 인한 서버 연결 해제
 
 <br>
 
@@ -31,7 +30,7 @@
 | :-------: | :-------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
 | Profile |<img width="150" src="https://avatars.githubusercontent.com/u/117034592?v=4"> |<img width="150" src="https://avatars.githubusercontent.com/u/70518135?v=4"> | <img width="150" src="https://avatars.githubusercontent.com/u/113077033?v=4"> 
 | GitHub ID | [@11dy](https://github.com/11dy) |  [@josungyuk](https://github.com/josungyuk) | [@mins-git](https://github.com/mins-git) |
-|   Role    |                - AWS EC2 배포 <br> - 음원 조회 기능  <br> - 음원 업로드 기능                                                           |                       <br> - 회원가입 <br> - 회원 이력 관리 <br> - JWT, OAuth 로그인  <br> - Security                                                                            |                                              - 게시판 CRUD <br> - 댓글 CRUD <br> - 게시글 좋아요 기능 <br> - 이미지 AWS 저장                                         |
+|   Role    |                - AWS 3-tier architecture 배포 <br> - AWS SDK를 이용한 core로직 구현  <br> - 음원 조회,업로드 기능                                                           |                       <br> - 회원가입 <br> - 회원 이력 관리 <br> - JWT, OAuth 로그인  <br> - Security                                                                            |                                              - 게시판 CRUD <br> - 댓글 CRUD <br> - 게시글 좋아요 기능 <br> - 이미지 AWS 저장                                         |
 
 
 <br>
