@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 import software.amazon.awssdk.core.ResponseInputStream;
 import software.amazon.awssdk.core.exception.SdkException;
@@ -19,6 +20,7 @@ import software.amazon.awssdk.services.s3.model.*;
 import software.amazon.awssdk.services.s3.presigner.S3Presigner;
 import software.amazon.awssdk.services.s3.presigner.model.GetObjectPresignRequest;
 import software.amazon.awssdk.services.s3.presigner.model.PresignedGetObjectRequest;
+
 
 
 import java.io.*;
@@ -36,6 +38,7 @@ import java.util.stream.Collectors;
  * s3에 저장된 mp3 파일의 url을 클라이언트에게 전달하는 service
  * */
 @Service
+@Transactional
 public class AwsS3Service {
     private final S3Client s3Client;
     private final S3Presigner s3Presigner;
@@ -142,7 +145,7 @@ public class AwsS3Service {
     }
 
     //음원 조회v3 - pre-signed 비동기 처리
-    public List<String> getMp3FileListUrlV3(long themeId) {
+    public List<String> getMp3FileListUrlV3(Long themeId) {
         try {
             List<String> musicList = new ArrayList<>(); // 반환 url 리스트
             // 개체 목록 요청
@@ -208,7 +211,6 @@ public class AwsS3Service {
             throw new RuntimeException("list 반환 실패: " + e.getMessage(), e);
         }
     }
-
 
 
 

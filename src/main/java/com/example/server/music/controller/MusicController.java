@@ -38,7 +38,7 @@ public class MusicController {
 
     // s3에 저장된 mp3 파일의 url list 가져오기
     @GetMapping("/list")
-    public ResponseEntity getMusicUrlList(@Positive @PathVariable("theme-id") long themeId){
+    public ResponseEntity getMusicUrlList(@Positive @PathVariable("theme-id") Long themeId){
 
         List<String> mp3List = awsS3Service.getMp3FileListUrlV3(themeId);
         return ResponseEntity.ok(mp3List);
