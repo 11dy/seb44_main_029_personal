@@ -45,11 +45,7 @@ public class MusicControllerTest {
     @Test
     @DisplayName("객체 url 리스트 반환 테스트")
     public void getMusicTest() throws Exception{
-        // given - 테스트용 request body 생성
         Long themeId = 1L;
-        //
-        // given: mock 객체가 특정 상황에서 해야하는 행위를 정의하는 메소드
-        // willReturn에서는 앞의 메서드가 뭘 리턴하는지 중요. > 반환 리스트 생성
         List<String> musicList = Arrays.asList("url1", "url2", "url3", "url4", "url5");
 
         given(awsS3Service.getMp3FileListUrlV3(themeId)).willReturn(musicList);
@@ -57,15 +53,13 @@ public class MusicControllerTest {
         // when - MockMvc 객체로 테스트 대상 Controller 호출
 
         // then - Controller 핸들러 메서드에서 응답으로 수신한 HTTP Status 및 response body 검증
-
         mockMvc.perform(
                 get("/theme/{theme-id}/music", themeId)) // MockMvcRequestBuilders의  MockHttpServletRequestBuilder에 있는 메소드
                 .andExpect(status().isOk()) // http request를 날리면 기본적으로 body 값으로 응답을 받기 때문에 사용함
                 .andExpect(jsonPath("$").isArray()) // json 응답이 배열인지 확인
                 .andExpect(jsonPath("$.length()").value(musicList.size())
-                ); // 배열 길이가 예상과 같은지 확인
+                );
 
-        // 해당 객체의 메소드가 실행되었는지 체크
         verify(awsS3Service).getMp3FileListUrlV3(1L);
 
     }
